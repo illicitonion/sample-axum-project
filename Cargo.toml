@@ -1,0 +1,12 @@
+[package]
+name = "sample-axum-project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.6.18"
+http = "0.2.9"
+pin-project = "1"
+pin-project-lite = "0.2.7"
+tokio = { version = "1.29.1", features = ["macros", "rt-multi-thread"]}
+tower = "0.4.13"
